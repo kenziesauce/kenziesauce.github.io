@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.myphoto   {
+	border: thick solid #1B76BC;
+	border-radius: 352px;
+	max-width: 150px;
+	max-height: 150px;
+	margin-left: 30px;
+}
+header h1 {
+	display: none;
+}
+body {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
