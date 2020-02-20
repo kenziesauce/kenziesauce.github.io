@@ -2,3 +2,8 @@
 body {
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 }
+.spotify {
+}
+main ol .spotify {
+	border-radius: 20px;
+}
