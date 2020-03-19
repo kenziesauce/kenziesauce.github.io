@@ -1,9 +1,17 @@
 @charset "UTF-8";
 body {
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	padding-left: 25px;
 }
 .spotify {
 }
 main ol .spotify {
 	border-radius: 20px;
+}
+body main a {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
