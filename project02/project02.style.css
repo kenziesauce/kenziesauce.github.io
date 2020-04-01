@@ -1,8 +1,4 @@
 @charset "UTF-8";
-body {
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-	background-color: #FFFFFF;
-}
 
 * {
     margin-top: 0px;
