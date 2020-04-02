@@ -97,9 +97,7 @@ header h2 {
 .BlackSection {
 	background-color: hsla(0,2%,37%,1.00);
 	padding-top: 20px;
-	padding-right: 20px;
 	padding-bottom: 41px;
-	padding-left: 20px;
 	clear: both;
 	height: 840px;
 	width: 100%;
@@ -179,7 +177,7 @@ footer {
     font-weight: 400;
 }
 .left50percent {
-    width: 45%;
+    width: 40%;
     float: left;
     margin-right: 5%;
     margin-left: 40px;
@@ -187,6 +185,7 @@ footer {
 .right50percent {
 	width: 40%;
 	float: left;
+    margin-left: 5%;
 }
 .inforblock {
     min-height: 300px;
@@ -208,7 +207,12 @@ p {
     text-align: center;
 }
 .Logo20.inforblock img {
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.Logo3 {
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-left: 0px;
 }
