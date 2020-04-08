@@ -128,9 +128,10 @@ h3 {
 footer {
     height: 100px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 40px;
     font-size: 0.8em;
     color: hsla(0,0%,60%,1.00);
+    background-color:  hsla(0,2%,37%,1.00);
     line-height: 1.4em;
 }
 .concept {
