@@ -126,9 +126,9 @@ h3 {
     font-weight: 400;
 }
 footer {
-    height: 400px;
+    height: 100px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 0.8em;
     color: hsla(0,0%,60%,1.00);
     line-height: 1.4em;
