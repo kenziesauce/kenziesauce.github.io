@@ -88,6 +88,8 @@ header .content{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    margin-top: 20px;
+    padding-left: 140px;
 }
 
 footer {
