@@ -87,9 +87,10 @@ header h1 {
     margin: 10px auto 10px auto;
 }
 
-
-.v-submission {
-   
+.v-submission{ 
+    display: flex;
+    margin: auto 10px 50px 40px;
+    
 }
 
 .v-submission video {
