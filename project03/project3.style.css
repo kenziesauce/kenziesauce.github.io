@@ -69,7 +69,7 @@ header h1 {
     padding-top: 80px;    
 }
 
-.brief, .requirements, .process {
+.brief, .requirements, .process, .submission {
     margin: auto 10px 50px 40px;
     color: #323232;
 }
@@ -87,14 +87,15 @@ header h1 {
     margin: 10px auto 10px auto;
 }
 
-.v-submission{ 
+.video{    
+    height: 200px;
     display: flex;
-    margin: auto 10px 50px 40px;
-    
+    align-items: center;
+    justify-content: center;
 }
 
-.v-submission video {
-    
+.video-post {
+    margin: 10px 80px;
 }
 
 footer {
