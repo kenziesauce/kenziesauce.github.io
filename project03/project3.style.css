@@ -9,7 +9,7 @@
 }
 
 html {
-	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
@@ -23,70 +23,77 @@ body {
     
 }
 
-h1 {
-    text-align: left;
-    margin-left: 25px;
-}
-
 h2 {
     text-align: center;
     font-size: 3.5rem;
-    color: cornflowerblue;
+    color: gray;
     padding: auto 10px;
+    border-bottom: gray solid 5px;
+    margin-right: 250px;
+    margin-left: 250px  
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 4rem;
     
 }
 
 header {
-color: white;
-  position: fixed;
-  height: 85px;
+  position: top;
+  height: 200px;
   width: 100%;
-  font-size: 1rem;
-  font-family: "Comic Sans MS Bold", "Comic Sans MS";
-  line-height: 1.6;
   border-bottom: solid 1px #c6c1c1;
-  background-color: cornflowerblue;
+  background-color: black;
   z-index: 2;
   opacity: .8;
 }
 header .content{
-  display: flex;
-  align-items: center;
-  padding: 1.875rem;
+  font-weight: 700;
+  color: grey;
+  line-height: 3.5rem;
+  text-align: center;
+  padding-top: 50px;
   margin: auto 30px;
+  
 }
 
-.main {
-    
-    padding-top: 90px;
-    margin-left: 30px;
+header h1 {
+  font-size: 4rem;
+}
+
+
+.main { 
+    width:100%;
+    padding-top: 80px;    
+}
+
+.brief, .requirements, .process {
+    margin: auto 10px 50px 40px;
+    color: #323232;
+}
+
+.brief-list, .requirements-list {
+    margin: auto 80px;
+    padding: 20px;
+    line-height: inherit;
     
 }
 
-.intro {
+
+.purpose, .research, .narration, .storyboard {
     text-align: center;
-    padding: 1.875rem;
-    margin: auto 30px;
+    margin: 10px auto 10px auto;
 }
-
-.intro p {
-    margin: 20px auto;
-}
-
 
 
 .v-submission {
-    display: inline-block;
-    padding: 1.875rem;
-    margin: auto 30px;
+   
 }
 
 .v-submission video {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    margin-top: 20px;
-    padding-left: 140px;
+    
 }
 
 footer {
