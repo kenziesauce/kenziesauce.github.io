@@ -69,13 +69,13 @@ header h1 {
     padding-top: 80px;    
 }
 
-.brief, .requirements, .process {
+.brief, .requirements, .process, .gallery {
     margin: auto 10px 50px 40px;
     color: #323232;
 }
 
 .brief-list, .requirements-list {
-    margin: auto 80px;
+    margin: auto 80px 25px 80px;
     padding: 20px;
     line-height: inherit;
     
@@ -83,7 +83,17 @@ header h1 {
 
 
 .purpose, .research, .narration, .storyboard {
-    margin: 20px 10px 50px 40px;
+    margin: auto 80px 25px 80px;
+}
+
+.gallery-images {
+    width: 700px;
+    
+}    
+
+.gallery-images img{
+    
+    
 }
 
 .submission {
@@ -112,7 +122,7 @@ header h1 {
     margin: auto 300px 10px 300px;
     font-weight: 700;
     background-color: #323232;
-    transition: background-color, color .2s;
+    transition: background-color, color .3s;
     
 }
 
