@@ -124,6 +124,7 @@ header h1 {
 
 .download-video {
     height: 60px;
+    margin-top: 10px;
 }
     
 .download-video a {
