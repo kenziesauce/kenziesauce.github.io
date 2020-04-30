@@ -83,8 +83,7 @@ header h1 {
 
 
 .purpose, .research, .narration, .storyboard {
-    text-align: center;
-    margin: 10px auto 10px auto;
+    margin: 20px 10px 50px 40px;
 }
 
 .submission {
@@ -112,12 +111,14 @@ header h1 {
     padding: 20px 40px;
     margin: auto 300px 10px 300px;
     font-weight: 700;
-    background-color: cornflowerblue;
+    background-color: #323232;
+    transition: background-color, color .2s;
     
 }
 
 .download-video a:hover {
-    color: gray;
+    background-color: #C7DEFE;
+    color: #323232;
 }
 
 
@@ -132,5 +133,5 @@ footer {
 }
 
 footer p {
-    padding-top: 10px;
+    padding-top: 15px;
 }
