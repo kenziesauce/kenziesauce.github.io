@@ -86,14 +86,25 @@ header h1 {
     margin: auto 80px 25px 80px;
 }
 
+.storyboard-images {
+    width:700px;
+    align-content: space-around;
+    
+}
+
+.storyboard-images img {
+    margin: 20px;
+}
+
 .gallery-images {
-    width: 700px;
+    width:700px;
+    align-content: space-around;
     
 }    
 
 .gallery-images img{
-    
-    
+    margin: 20px;
+   
 }
 
 .submission {
