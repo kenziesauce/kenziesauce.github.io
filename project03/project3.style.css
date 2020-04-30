@@ -69,7 +69,7 @@ header h1 {
     padding-top: 80px;    
 }
 
-.brief, .requirements, .process, .submission {
+.brief, .requirements, .process {
     margin: auto 10px 50px 40px;
     color: #323232;
 }
@@ -87,16 +87,39 @@ header h1 {
     margin: 10px auto 10px auto;
 }
 
-.video{    
-    height: 200px;
+.submission {
+    text-align: center;
+}
+
+.video{   
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .video-post {
-    margin: 10px 80px;
+    margin: 20px 30px;
+    
 }
+
+.download-video {
+    height: 60px;
+}
+    
+.download-video a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    margin: auto 300px 10px 300px;
+    font-weight: 700;
+    background-color: cornflowerblue;
+    
+}
+
+.download-video a:hover {
+    color: gray;
+}
+
 
 footer {
     color: darkgrey;
