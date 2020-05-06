@@ -82,6 +82,10 @@ header h1 {
     
 }
 
+.brief-list-right {
+    align-content: flex;
+}
+
 
 .purpose, .research, .narration, .storyboard {
     margin: auto 80px 25px 80px;
@@ -122,7 +126,7 @@ header h1 {
 footer {
     color: #c7ccbd;
     background-color: black;
-    height: 40px;
+    height: 85px;
     text-align: center;
     font-size: 12px;    
     margin-top: 20px;
@@ -130,7 +134,8 @@ footer {
 }
 
 footer p {
-    padding-top: 15px;
+    padding-top: 40px;
+    opacity: .4;
 }
 /* CSS Document */
 
