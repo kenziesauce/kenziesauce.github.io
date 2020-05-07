@@ -1,14 +1,73 @@
 @charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;    
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    background-color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+header {    
+    display: block;
+    z-index: 10;
+    padding-bottom: 30px
+
+}
+
+.header-content {
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+header h2 {
+    text-align: right;
+    margin: auto 10px;
+}
+
+nav {
+    width: 800px;
+    height: 200px;
+    color: #ffffff;
+    display: block;    
+    margin: 40px 100px;
+    
+    }
+
+.nav-content {
+    display: inline-block;
+}
+
+.p1, .p2, .p3, .p4 {
+	border-top: #0B3352 solid 10px;
+	background-color: #1B76BC;
+	opacity: .5;
+	padding: 40px 50px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
 .myphoto   {
 	border: thick solid #1B76BC;
 	border-radius: 352px;
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 80px;
+	max-height: 80px;
 	margin-left: 30px;
 }
-header h1 {
-	display: none;
-}
+    
+
 body {
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	
+}
+
+footer {
+    height: 120px;
+    padding: 20px auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    padding: 40px 80px;
 }
