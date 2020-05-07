@@ -9,7 +9,8 @@
 
 }
 
-header {    
+header {  
+    text-align: center;
     display: block;
     z-index: 10;
     padding-bottom: 100px
@@ -22,8 +23,7 @@ header {
 }
 
 header h2 {
-    text-align: right;
-    margin: auto 10px;
+    margin-bottom: 20px;
 }
 
 nav {
