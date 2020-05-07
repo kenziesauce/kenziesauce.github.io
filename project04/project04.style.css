@@ -123,6 +123,27 @@ header h1 {
     
 }
 
+.download-video {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.download-video a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    margin: auto 300px 10px 300px;
+    font-weight: 700;
+    background-color: #323232;
+    transition: background-color, color .3s;
+    
+}
+
+.download-video a:hover {
+    background-color: #C7DEFE;
+    color: #323232;
+}
+
 footer {
     color: #c7ccbd;
     background-color: black;
