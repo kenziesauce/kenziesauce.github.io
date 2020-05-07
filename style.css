@@ -28,15 +28,21 @@ header h2 {
 
 nav {
     width: 800px;
-    height: 200px;
+    height: 70px;
     color: #ffffff;
     display: block;    
-    margin: 40px 100px;
+    margin: 10px 40px;
     
     }
 
 .nav-content {
-    display: inline-block;
+    float: right;
+    
+}
+
+.nav-content li {
+	display: inline-block;
+    text-decoration: none;
 }
 
 .p1, .p2, .p3, .p4 {
@@ -72,5 +78,3 @@ footer {
 .footer-text {
     padding: 40px 80px;
 } 
-
-
