@@ -16,6 +16,10 @@ body {
     background-color: #ffffff;
 }
 
+h2 {
+    font-family: "Homenaje", Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+}
+
 .logo-float {
 	postion: relative;
     width: 100px;
@@ -86,6 +90,8 @@ header h2 {
 }
 
 .social-header {
+    width: 120px;
+    height: 110px;
     position: relative;
     background-color: #45579A;
     margin-left: 75%;
@@ -95,9 +101,7 @@ header h2 {
 }
 
 .social-header img {
-    width: 20px;
-    background-color: #45579A;
-    padding: 5px 4px;
+    background-color: inherit;
     
 }
 
@@ -116,12 +120,35 @@ body {
 }
 
 footer {
-    height: 120px;
-    padding: 20px auto;
+    color: #ffffff;
+    background-color: #001D4A;
+    height: 100px;
+    padding: 100px 20px 20px 40px;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
+    font-size: .5rem;
+}
+
+footer h2 {
+    background-color: #001D4A;
+    font-size: 2.3rem;
 }
 
 .footer-text {
-    
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    background-color: #001D4A;
+    font-size: 2rem;
+
 } 
+
+footer a {
+    background-color: #001D4A;
+}
+
+footer img {
+    width: 15px;
+    background-color: #001D4A;
+    padding: 10px 6px;
+
+}
