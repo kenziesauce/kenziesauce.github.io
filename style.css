@@ -156,6 +156,7 @@ header h3 {
 }
 
 .projects-container {
+    
     position: relative;
     text-align: center;
 
@@ -165,22 +166,26 @@ header h3 {
     color: #006992;
     padding-bottom: 40px;
     font-size: 1.5rem;
+  
     
 
 }
 
 #projects h3 {
+    color: #313131;
     font-size: 1.2rem;
     font-weight: 600;
-}
+    }
 
 .who {
     font-weight: 800;
+    
 }
 
 .project-block, .project-block-mid {
     display: inline-block;
     padding: 20px 40px;
+    text-decoration: none;
 
 }
 
@@ -189,9 +194,14 @@ header h3 {
 
 }
 
+.project-block-mid:hover, .project-block:hover{
+    background-color: #F5F5F5;
+;
+
+}
+
  .who {
     font-size: 1.5rem;
-    color: #435499;
 }
 
 .project-block a {
