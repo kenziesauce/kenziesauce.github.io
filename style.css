@@ -119,6 +119,27 @@ body {
     
 }
 
+#projects {
+    width: inherit;
+    height: 700px;
+    position: inherit;
+    display: block;
+    background-color: #F5F5F5;
+    margin: 10px;
+    z-index: 3;
+
+}
+
+.project-block, .project-block-mid {
+    display: inline-block;
+    padding: 20px 40px;
+    
+}
+
+.project-block-mid {
+    border-left: #aaaaaaa medium solid;
+}
+
 footer {
     color: #ffffff;
     background-color: #001D4A;
