@@ -12,8 +12,9 @@
 }
 
 body {
-    position: relative;
+    position: absolute;
     background-color: #ffffff;
+    display: block;
 }
 
 
@@ -23,35 +24,34 @@ h2 {
 
 .logo-float {
 	postion: relative;
-    width: 100px;
+	width: 100px;
 	padding: 20px 40px;
 	background-color: #435499;
 	margin-right: 80%;
 	float: left;
-    z-index: 5; 
+	z-index: 9999999;
 }
 
 .logo-float-img {
     background-color: #435499;
+    display: block;
 
 }
 
 .nav-bar {
     position: fixed;
+    top: 0;
     width: 100%;
     background-color: #F5F5F5;
-    display: block;    
-    z-index: 1;
+    display: block;
+    z-index: 5;
     
     }
 
 .nav-content {
     float: right;
     padding: 10px 40px 10px 0px;
-    background-color: #F5F5F5;
-
-    
-    
+    background-color: #F5F5F5;  
 }
 
 .nav-content li, .nav-content li a {
@@ -72,6 +72,7 @@ h2 {
 
 
 header {  
+    height: 500px;
     text-align: center;
     display: block;
     z-index: 10;
@@ -86,6 +87,7 @@ header {
 }
 
 header h1 { 
+    padding-top: 150px;
     font-family: "Homenaje", Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
     color: #45579A;
     font-size: 6rem;
@@ -106,14 +108,14 @@ header h3 {
 }
 
 .social-header {
-    width: 120px;
-    height: 110px;
+    width: 15%;
+    height: 25%;
     position: relative;
     background-color: #45579A;
     margin-left: 75%;
     margin-right: 10%;
     border: #45579A solid thick;
-    border-radius: 100px;
+    border-radius: 50%;
 }
 
 .social-header img {
@@ -130,13 +132,9 @@ header h3 {
 }
     
 
-body {
-	
-    
-}
-
 #projects {
     width: inherit;
+    padding: 40px;
     height: 700px;
     position: inherit;
     display: block;
@@ -146,14 +144,45 @@ body {
 
 }
 
+#projects h2 {
+    background-color: #F5F5F5;
+    color: #45579A;
+    
+
+}
+
+#projects h3 {
+    background-color: #F5F5F5;
+}
+
+.who {
+    background-color: #F5F5F5;
+    font-weight: 800;
+}
+
 .project-block, .project-block-mid {
     display: inline-block;
     padding: 20px 40px;
+    background-color: #F5F5F5;
+
+    
     
 }
 
 .project-block-mid {
-    border-left: #aaaaaaa medium solid;
+    border-left: #AAAAAA medium solid;
+    background-color: #F5F5F5;
+
+}
+
+.project-block a {
+    padding: 20px;
+    background-color: #F5F5F5;
+
+}
+
+.projects-container {
+    background-color: #F5F5F5;
 }
 
 footer {
