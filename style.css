@@ -40,19 +40,22 @@ h2 {
 }
 
 .nav-bar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #F5F5F5;
-    display: block;
-    z-index: 5;
-    
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #F5F5F5;
+	display: block;
+	z-index: 5;
+	-webkit-box-shadow: 0px 0px 25px -10px;
+	box-shadow: 0px 0px 25px -10px;
     }
 
 .nav-content {
-    float: right;
-    padding: 10px 40px 10px 0px;
-    background-color: #F5F5F5;  
+	float: right;
+	padding: 10px 40px 10px 0px;
+	background-color: #F5F5F5;
+	-webkit-box-shadow: 0px 0px 1px #000000;
+	box-shadow: 0px 0px 1px #000000;
 }
 
 .nav-content li, .nav-content li a {
@@ -182,8 +185,38 @@ header h3 {
 }
 
 .projects-container {
-    padding: 20px 20% 20px 10% ;
+    padding: 80px 20px 20px 15% ;
     background-color: #F5F5F5;
+}
+
+.project-button-container {
+    display: block;
+    background-color: #F5F5F5;
+    margin-top: 100px;
+    text-align: center;
+    
+    
+}
+
+.project-button {
+    background-color: #ECA400;
+    display: block;
+    padding: 5px 25px;
+    border-radius: 20px;
+    margin: 40px 40%;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+#bio {
+    height: 500px;
+    padding: 40px 40px;
+    background-color: #ECA400;
+    margin: 15px 10px 0px 10px;
+}
+
+.bio-bubble {
+    
 }
 
 footer {
@@ -191,7 +224,7 @@ footer {
     background-color: #001D4A;
     height: 100px;
     padding: 100px 20px 20px 40px;
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: left;
     font-size: .5rem;
 }
