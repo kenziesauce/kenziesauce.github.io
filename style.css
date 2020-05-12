@@ -4,7 +4,7 @@
     top: 0;
     margin: 0px;
     padding: 0px;    
-    background-color: #ffffff;
+    
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
@@ -13,6 +13,7 @@
 
 body {
     width: 100%;
+    height: auto;
     position: absolute;
     background-color: #ffffff;
     display: block;
@@ -24,18 +25,21 @@ h2 {
 }
 
 .logo-float {
-	postion: relative;
-	width: 100px;
-	padding: 20px 40px;
+    display: block;
+    top: -310px;
+    right: 750px;
+	position: relative;
+	width: 1000px;
+    height: 400px;
+    border-radius: 200px;
 	background-color: #435499;
-	margin-right: 80%;
-	float: left;
-	z-index: 9999999;
+	z-index: 10;
+    margin-bottom: -550px;
 }
 
 .logo-float-img {
-    background-color: #435499;
-    display: block;
+    display: inline-block;
+    z-index: 9999999;
 
 }
 
@@ -53,15 +57,12 @@ h2 {
 .nav-content {
 	float: right;
 	padding: 10px 40px 10px 0px;
-	background-color: #F5F5F5;
-	-webkit-box-shadow: 0px 0px 1px #000000;
-	box-shadow: 0px 0px 1px #000000;
+	
 }
 
 .nav-content li, .nav-content li a {
 	display: inline-block;
     text-decoration: none;
-	color: #2D3142;
     background-color: #F5F5F5;
     padding: 8px 5px;
 
@@ -69,18 +70,17 @@ h2 {
 
 .logo-nav{
 	padding: 20px 40px;
-	font-style: normal;
-    background-color: #F5F5F5;
 
 }
 
 
 header {  
+    padding-top: 90px;
     height: 500px;
     text-align: center;
     display: block;
     z-index: 10;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 
 }
 
@@ -91,7 +91,6 @@ header {
 }
 
 header h1 { 
-    padding-top: 150px;
     font-family: "Homenaje", Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
     color: #45579A;
     font-size: 6rem;
@@ -112,61 +111,59 @@ header h3 {
 }
 
 .social-header {
-    width: 15%;
-    height: 25%;
+    display: block;
+	width: 284px;
+	height: 284px;
+	position: relative;
+	top: -100px;
+	right: 80px;
+	background-color: #45579A;
+	margin-left: 75%;
+	margin-right: 20%;
+	border: #45579A solid thick;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.social-header a img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    top: 245px;
     position: relative;
+    margin: 0px 9px;
     background-color: #45579A;
-    margin-left: 75%;
-    margin-right: 10%;
-    border: #45579A solid thick;
-    border-radius: 50%;
+    z-index: 5;
 }
 
-.social-header img {
-    background-color: inherit;
-    
-}
-
-.myphoto   {
-	border: thick solid #1B76BC;
-	border-radius: 352px;
-	max-width: 80px;
-	max-height: 80px;
-	margin-left: 30px;
-}
-    
 
 #projects {
+    position: relative;
+    padding: 50px;
     width: auto;
-    padding: 40px;
-    height: 700px;
-    position: inherit;
+    height: auto;
     display: block;
-    background-color: #F5F5F5;
     margin: 10px;
     z-index: 3;
+    background-color: #F5F5F5;
 }
 
 #projects h2 {
-    background-color: #F5F5F5;
     color: #45579A;
     
 
 }
 
 #projects h3 {
-    background-color: #F5F5F5;
 }
 
 .who {
-    background-color: #F5F5F5;
     font-weight: 800;
 }
 
 .project-block, .project-block-mid {
     display: inline-block;
     padding: 20px 40px;
-    background-color: #F5F5F5;
 
     
     
@@ -174,24 +171,20 @@ header h3 {
 
 .project-block-mid {
     border-left: #AAAAAA medium solid;
-    background-color: #F5F5F5;
 
 }
 
 .project-block a {
     padding: 20px;
-    background-color: #F5F5F5;
 
 }
 
 .projects-container {
-    padding: 80px 20px 20px 15% ;
-    background-color: #F5F5F5;
+    position: relative;
 }
 
 .project-button-container {
     display: block;
-    background-color: #F5F5F5;
     margin-top: 100px;
     text-align: center;
     
@@ -209,14 +202,64 @@ header h3 {
 }
 
 #bio {
+    position: relative;
+    width: auto;
+    display: inline-block;
     height: 500px;
     padding: 40px 40px;
     background-color: #ECA400;
     margin: 15px 10px 0px 10px;
+    color: #F5F5F5;
 }
 
 .bio-bubble {
+    position: relative;
+    height: 300px;
+    background-color: #006992;
+    border-radius: 200px;
+    right: 200px;
     
+}
+
+.myphoto   {
+    position: relative;
+	border: thick solid #006992;
+	border-radius: 352px;
+	max-width: 80px;
+	max-height: 80px;
+	margin-left: 30px;
+}
+    
+
+.bio-text {
+    position: relative;
+    left: 200px;
+    font-family:  "Homenaje", Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+
+}
+
+#quote {
+    display: block;
+    position: relative;
+    margin: 50px 10px;
+    padding-bottom: 20px;
+}
+
+#quote q {
+    font-family:  "Homenaje", Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 200px;
+    align-content: center;
+}
+
+#quote p {
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 550px;
+    align-content: center;
 }
 
 footer {
