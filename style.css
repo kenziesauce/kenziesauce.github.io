@@ -16,6 +16,7 @@ body {
     background-color: #ffffff;
 }
 
+
 h2 {
     font-family: "Homenaje", Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
 }
@@ -74,7 +75,7 @@ header {
     text-align: center;
     display: block;
     z-index: 10;
-    padding-bottom: 100px
+    padding-bottom: 100px;
 
 }
 
@@ -84,8 +85,23 @@ header {
     
 }
 
-header h2 {
-    margin-bottom: 20px;
+header h1 { 
+    font-family: "Homenaje", Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+    color: #45579A;
+    font-size: 6rem;
+}
+
+header .hey {
+    font-weight: 800;
+    color: #313131;
+    font-size: 6rem;
+
+    
+}
+
+header h3 {
+	font-size: 1rem;
+	letter-spacing: .2rem;
     
 }
 
