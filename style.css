@@ -3,9 +3,10 @@
 * {
     margin: 0px;
     padding: 0px;    
-    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
     background-color: #F5F5F5;
     font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
 
 }
 
@@ -43,15 +44,6 @@ nav {
 .nav-content li {
 	display: inline-block;
     text-decoration: none;
-}
-
-.p1, .p2, .p3, .p4 {
-	border-top: #0B3352 solid 10px;
-	background-color: #1B76BC;
-	opacity: .5;
-	padding: 40px 50px;
-	text-decoration: none;
-	color: #FFFFFF;
 }
 
 .myphoto   {
