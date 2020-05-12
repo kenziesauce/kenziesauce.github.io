@@ -1,14 +1,68 @@
 @charset "UTF-8";
 
 * {
+    top: 0;
     margin: 0px;
     padding: 0px;    
-    background-color: #F5F5F5;
+    background-color: #ffffff;
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
 
 }
+
+body {
+    background-color: #ffffff;
+}
+
+.logo-float {
+	postion: inherit;
+	padding: 20px 40px;
+	z-index: 5;
+	background-color: #435499;
+	margin-right: 80%;
+}
+
+.logo-float-img {
+    background-color: #435499;
+
+}
+
+
+.nav-bar {
+    position: top;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: block;    
+    z-index: 2;
+    
+    }
+
+.nav-content {
+    float: right;
+    padding: 10px 40px 10px 0px;
+    background-color: #F5F5F5;
+
+    
+    
+}
+
+.nav-content li, .nav-content li a {
+	display: inline-block;
+    text-decoration: none;
+	color: #2D3142;
+    background-color: #F5F5F5;
+    padding: 8px 5px;
+
+}
+
+.logo-nav{
+	padding: 20px 40px;
+	font-style: normal;
+    background-color: #F5F5F5;
+
+}
+
 
 header {  
     text-align: center;
@@ -21,30 +75,14 @@ header {
 .header-content {
     display: inline-block;
     padding: 20px 40px;
+    
 }
 
 header h2 {
     margin-bottom: 20px;
-}
-
-nav {
-    width: 800px;
-    height: 70px;
-    color: #ffffff;
-    display: block;    
-    margin: 10px 40px;
-    
-    }
-
-.nav-content {
-    float: right;
     
 }
 
-.nav-content li {
-	display: inline-block;
-    text-decoration: none;
-}
 
 .myphoto   {
 	border: thick solid #1B76BC;
