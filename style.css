@@ -31,7 +31,7 @@ h2 {
 	width: 1000px;
     height: 400px;
     border-radius: 200px;
-	background-color: #435499;
+	background-color: #45579A;
 	z-index: 10;
     margin-bottom: -550px;
 
@@ -73,6 +73,9 @@ h2 {
     padding: 8px 5px;
 
 }
+
+
+
 
 .logo-nav{
 	padding: 20px 40px;
@@ -145,6 +148,7 @@ header h3 {
 
 
 #projects {
+    color: #313131;
     position: relative;
     padding: 50px;
     width: auto;
@@ -163,7 +167,6 @@ header h3 {
 }
 
 #projects h2 {
-    color: #006992;
     padding-bottom: 40px;
     font-size: 1.5rem;
   
@@ -172,7 +175,6 @@ header h3 {
 }
 
 #projects h3 {
-    color: #313131;
     font-size: 1.2rem;
     font-weight: 600;
     }
@@ -183,8 +185,11 @@ header h3 {
 }
 
 .project-block, .project-block-mid {
+    color: #313131;
     display: inline-block;
-    padding: 20px 40px;
+    width: auto;
+    padding: 20px 40px 10px 40px;
+    margin: 0px;
     text-decoration: none;
 
 }
@@ -194,10 +199,10 @@ header h3 {
 
 }
 
-.project-block-mid:hover, .project-block:hover{
-    background-color: #F5F5F5;
-;
-
+.project-block-mid:hover, .project-block:hover {
+    background-color: #45579A;
+    color: #f8f8f8 !important;
+    
 }
 
  .who {
