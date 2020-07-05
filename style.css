@@ -6,8 +6,7 @@
     padding: 0px;    
     
     font-size: 16px;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 400;
+    font-family: 'Futura', sans-serif;
 
 }
 
@@ -21,7 +20,7 @@ body {
 
 
 h2 {
-    font-family: "Homenaje", Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+    font-family: "Futura", Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
 }
 
 .logo-float {
@@ -66,7 +65,8 @@ h2 {
 
 .nav-content li, .nav-content li a {
     color: #45579A;
-    font-weight: 700;
+    font-family: reross-quadratic, sans-serif;
+    font-weight: 400;
 	display: inline-block;
     text-decoration: none;
     background-color: #F5F5F5;
@@ -97,7 +97,7 @@ header {
 }
 
 header h1 { 
-    font-family: "Homenaje", Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif';
+    font-family: reross-rectangular, sans-serif;
     color: #435497;
     font-size: 6rem;
 }
@@ -114,6 +114,7 @@ header h3 {
 	font-size: 1rem;
 	letter-spacing: .2rem;
     margin-top: -40px;
+    font-weight: 400;
     
 }
 
@@ -157,9 +158,8 @@ footer h2 {
 }
 
 .footer-text {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
+    font-family: reross-rectangular, sans-serif;
+    font-size: 2.4rem;
 } 
 
 footer p {
