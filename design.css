@@ -53,6 +53,17 @@ a {
     
 }
 
+.left-bar {
+    display: inline-block;
+    flex-direction: row;
+}
+
+.nav-subhead {
+    font-family: reross-rectangular, sans-serif;
+    font-size: .6rem;
+    letter-spacing: .1rem;
+}
+
 .logo-nav {
     position: relative;
     display: inline-flex;

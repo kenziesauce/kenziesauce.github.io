@@ -63,6 +63,17 @@ a {
   
 }
 
+.left-bar {
+    display: inline-block;
+    flex-direction: row;
+}
+
+.nav-subhead {
+    font-family: reross-rectangular, sans-serif;
+    font-size: .6rem;
+    letter-spacing: .1rem;
+}
+
 .nav-mak {
     font-family: reross-rectangular, sans-serif;
 }
