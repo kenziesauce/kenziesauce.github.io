@@ -49,7 +49,7 @@ a {
 
 .nav-bar-contents {
     flex-grow: 1;
-    padding: 0px 40px;
+    padding: 0px 50px;
     
 }
 
@@ -79,7 +79,7 @@ a {
     font-family: reross-quadratic, sans-serif;
 	display: inline-flex;
     text-decoration: none;
-    padding: 0px 15px;
+    padding: 0px 0px 0px 20px;
 
 }
 
@@ -170,7 +170,7 @@ footer img {
     display: inline-flex;
     position: relative;
     width: 15px;
-    padding: 20px 6px 0px 6px;
+    padding: 20px 8px 0px 0px;
 
 }
 
