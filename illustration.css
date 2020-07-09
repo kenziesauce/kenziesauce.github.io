@@ -30,6 +30,7 @@ a {
 	position: relative;
 	-webkit-box-shadow: 1px 1px 8px #7A7A7A;
 	box-shadow: 1px 1px 8px #7A7A7A;
+    z-index: 5;
 }
 
 .nav-bar {
