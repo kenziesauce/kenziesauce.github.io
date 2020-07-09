@@ -49,7 +49,7 @@ a {
 
 .nav-bar-contents {
     flex-grow: 1;
-    padding: 0px 50px;
+    padding: 0px 60px;
     
 }
 
@@ -134,7 +134,7 @@ footer li {
 
 .footer-content {
     display: flex;
-    padding: 50px 20px 10px 20px;
+    padding: 50px 60px 10px 20px;
     
 }
 
@@ -170,14 +170,13 @@ footer img {
     display: inline-flex;
     position: relative;
     width: 15px;
-    padding: 20px 8px 0px 0px;
+    padding: 25px 8px 0px 0px;
 
 }
 
 .footer-map {
     display: inline-flex;
     float: right;
-
     justify-content: space-between;
     
 }
@@ -190,5 +189,5 @@ footer li {
     font-weight: 200;
     display: flex;
     text-decoration: none;
-    padding: 10px 35px
+    padding: 20px 0px 0px 80px;
 }
