@@ -40,64 +40,64 @@
 if (window.JotForm && JotForm.accessible) $('input_4').setAttribute('tabindex',0); JotForm.newDefaultTheme = false; JotForm.newPaymentUIForNewCreatedForms = true; JotForm.newPaymentUI = true; JotForm.alterTexts(undefined); JotForm.clearFieldOnHide="disable"; JotForm.submitError="jumpToFirstError"; /*INIT-END*/ }); JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"input4","qid":"4","subLabel":"","text":"Message","type":"control_textarea"},{"description":"","name":"typeA","qid":"5","subLabel":"","text":"Inquiry","type":"control_dropdown"},{"description":"","name":"email","qid":"6","subLabel":"example@example.com","text":"Email","type":"control_email"}]); setTimeout(function() {
 JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"input4","qid":"4","subLabel":"","text":"Message","type":"control_textarea"},{"description":"","name":"typeA","qid":"5","subLabel":"","text":"Inquiry","type":"control_dropdown"},{"description":"","name":"email","qid":"6","subLabel":"example@example.com","text":"Email","type":"control_email"}]);}, 20); </script>
 
-           <form class="container-md" action="https://submit.jotform.com/submit/201914673433050/" method="post" name="form_201914673433050" id="201914673433050" accept-charset="utf-8" autocomplete="on">
+           <form class="container" action="https://submit.jotform.com/submit/201914673433050/" method="post" name="form_201914673433050" id="201914673433050" accept-charset="utf-8" autocomplete="on">
             <h1>Let's work <span class="orange">together</span></h1>
-               <input type="hidden" name="formID" value="201914673433050" /> 
-               <input type="hidden" id="JWTContainer" value="" /> 
-               <input type="hidden" id="cardinalOrderNumber" value="" /> 
-               <div role="main" class="form-all"> 
-                   <ul class="form-section page-section" style="list-style: none;"> 
-                       <li class="form-line jf-required" data-type="control_fullname" id="id_3"> 
-                           <div id="cid_3" class="form-input-wide jf-required"> 
-                               <div data-wrapper-react="col-md-3"> 
-                                   <span class="form-sub-label-container " style="vertical-align:top" data-input-type="first"> 
-                                       <input type="text" id="first_3" name="q3_name[first]" class="form-textbox validate[required]" size="10" value="" data-component="first" aria-labelledby="label_3 sublabel_3_first" required="" /> 
-                                       </span> <span class="form-sub-label-container " style="vertical-align:top" data-input-type="last"> 
-                                   <input type="text" id="last_3" name="q3_name[last]" class="form-textbox validate[required]" size="15" value="" data-component="last" aria-labelledby="label_3 sublabel_3_last" required="" /> 
-                                   </span> 
-                               </div> 
-                           </div> 
-                       </li> 
-                       <li class="form-line" data-type="control_email" id="id_6"> 
+                <input type="hidden" name="formID" value="201914673433050" /> 
+                <input type="hidden" id="JWTContainer" value="" /> 
+                <input type="hidden" id="cardinalOrderNumber" value="" /> 
+                <div role="main" class="form-all"> 
+                <div class="row">
+                    
+             <div class="col-md-6">
+                 
+               <span class="form-sub-label-container " style="vertical-align:top" data-input-type="first"> 
+                        <input type="text" id="first_3" name="q3_name[first]" class="form-textbox validate[required] input-group mb-3 form-control" value="" data-component="first" aria-labelledby="label_3 sublabel_3_first" required="" placeholder="First Name"/> 
+               </span> 
+               
+             </div>
+            <div class="col-md-6">
+                <span class="form-sub-label-container " style="vertical-align:top" data-input-type="last">
+                    <input type="text" id="last_3" name="q3_name[last]" class="form-textbox validate[required] input-group mb-3 form-control" value="" data-component="last" aria-labelledby="label_3 sublabel_3_last" required="" placeholder="Last Name"/> 
+                </span> 
+            </div>
+                  </div>
+                  <li class="form-line" data-type="control_email" id="id_6"> 
                            <div id="cid_6" class="form-input-wide"> 
                                <span class="form-sub-label-container " style="vertical-align:top"> 
-                                   <input type="email" id="input_6" name="q6_email" class="form-textbox validate[Email]" size="30" value="" data-component="email" aria-labelledby="label_6 sublabel_input_6" /> 
-                                   <label class="form-sub-label" for="input_6" id="sublabel_input_6" style="min-height:13px" aria-hidden="false"> example@example.com </label> </span> 
+                               <input type="email" id="input_6" name="q6_email" class="form-control form-textbox validate[Email]" size="30" value="" data-component="email" aria-labelledby="label_6 sublabel_input_6" placeholder="example@example.com"/> 
+                             </span> 
                            </div> 
                        </li> 
                        <li class="form-line" data-type="control_dropdown" id="id_5"> 
-                           <label class="form-label form-label-top form-label-auto" id="label_5" for="input_5"> Inquiry </label> 
-                           <div id="cid_5" class="form-input-wide"> 
-                               <select class="form-dropdown" id="input_5" name="q5_typeA" style="width:150px" data-component="dropdown" aria-labelledby="label_5"> 
-                                   <option value=""></option> 
-                                   <option value="Graphic Design Services"> Graphic Design Services </option> <option value="Illustration"> Illustration </option> 
-                                   <option value="Motion Graphics"> Motion Graphics </option> 
-                                   <option value="UX/UI "> UX/UI </option> <option value="Other"> Other </option> 
-                               </select> 
-                           </div> 
+                          <div id="cid_5" class="form-input-wide"> 
+                              <select class="form-dropdown form-control mb-3" id="input_5" name="q5_typeA" data-component="dropdown" aria-labelledby="label_5"> 
+                                  <option value=""></option> 
+                                  <option value="Graphic Design Services"> Graphic Design Services </option> <option value="Illustration"> Illustration </option> 
+                                  <option value="Motion Graphics"> Motion Graphics </option> 
+                                  <option value="UX/UI "> UX/UI </option> <option value="Other"> Other </option> 
+                              </select> 
+                          </div> 
                        </li> 
-                       <li class="form-line" data-type="control_textarea" id="id_4"> 
-                            
+                       <li class="form-line" data-type="control_textarea" id="id_4">  
                            <div id="cid_4" class="form-input-wide"> 
                                <textarea id="input_4" class="form-control" name="q4_input4" cols="40" rows="6" data-component="textarea" aria-labelledby="label_4" placeholder="Message"></textarea> 
                            </div> 
                        </li> 
                        <li class="form-line" data-type="control_button" id="id_2"> 
-                           <div id="cid_2" class="form-input-wide"> 
+                           <div id="cid_2" class="form-input-wide col-md-12"> 
                                <div style="margin-left:156px" data-align="auto" class="form-buttons-wrapper form-buttons-auto jsTest-button-wrapperField"> 
-                                   <button id="input_2" type="submit" class="btn btn-primary" data-component="button" data-content=""> Submit </button> 
+                                   <button id="input_2" type="submit" class="btn btn-primary" data-component="button" data-content="" style="align-self: center; background-color: #FFB17A;"> Submit </button> 
                                </div> 
                            </div> 
                        </li> 
                        <li style="display:none"> Should be Empty: 
                            <input type="text" name="website" value="" /> 
-                       </li> 
-                   </ul> 
+                       </li>  
                </div> 
                <script> JotForm.showJotFormPowered = "new_footer"; </script> 
-               <script> JotForm.poweredByText = "Powered by JotForm"; </script> 
+             <script> JotForm.poweredByText = "Powered by JotForm"; </script> 
                <input type="hidden" id="simple_spc" name="simple_spc" value="201914673433050" /> 
-               <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "201914673433050-201914673433050"; </script>
+             <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "201914673433050-201914673433050"; </script>
 </form>
 
    <!--  <form id="contact-form" method="post" action="js/contact.php" role="form">  
