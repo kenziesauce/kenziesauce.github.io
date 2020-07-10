@@ -1,7 +1,7 @@
 ﻿//index.js  
 function sendEmail() {
 	Email.send({
-	SecureToken : "c842cd55-489d-46d1-a5b3-9437f4006d9e",
+	SecureToken : "772c5200-0b15-4a94-8ff4-f77afe9b0205",
 	To : 'kenzie@miadolce.com',
 	From : "<sender’s email address>",
 	Subject : "Test",
