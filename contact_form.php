@@ -25,7 +25,7 @@ $template = '<div style="padding:50px; color:white;">Hello ' . $name . ',<br/>'
 . 'This is a Contact Confirmation mail.'
 . '<br/>'
 . 'We Will contact You as soon as possible .</div>';
-$sendmessage = "<div style="background-color:#7E7E7E; color:white;">" . $template . "</div>";
+$sendmessage = "<div style= background-color:#7E7E7E; color:white;>" . $template . "</div>";
 // Message lines should not exceed 70 characters (PHP rule), so wrap it.
 $sendmessage = wordwrap($sendmessage, 70);
 // Send mail by PHP Mail Function.
