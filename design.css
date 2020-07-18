@@ -19,7 +19,10 @@ body {
 
 a {
     text-decoration: none;
+}
 
+a:hover { 
+    text-decoration: none !important;
 }
 
 .color-block {
@@ -45,6 +48,11 @@ a {
     align-items: center;
     z-index: 10;
     color: #FFFDED;
+}
+
+nav a:hover { 
+    text-decoration: none;
+    color: #fff !important;
 }
 
 .nav-bar-contents {

@@ -19,7 +19,10 @@ body {
 
 a {
     text-decoration: none;
+}
 
+a:hover { 
+    text-decoration: none !important;
 }
 
 .color-block {
@@ -47,6 +50,11 @@ a {
     color: #FFFDED;
 }
 
+nav a:hover { 
+    text-decoration: none;
+    color: #fff !important;
+}
+
 .nav-bar-contents {
     flex-grow: 1;
     padding: 0px 60px;
@@ -63,9 +71,12 @@ a {
 }
 
 .left-bar {
+    color: #FFFDED; 
+    text-decoration: none;
     display: inline-block;
     flex-direction: row;
 }
+
 
 .nav-subhead {
     font-family: reross-rectangular, sans-serif;

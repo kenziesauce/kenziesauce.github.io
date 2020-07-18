@@ -19,7 +19,10 @@ body {
 
 a {
     text-decoration: none;
+}
 
+a:hover { 
+    text-decoration: none !important;
 }
 
 .color-block {
@@ -30,6 +33,10 @@ a {
 	position: relative;
 	-webkit-box-shadow: 1px 1px 8px #7A7A7A;
 	box-shadow: 1px 1px 8px #7A7A7A;
+}
+
+nav a:hover { 
+    color: #fff !important;
 }
 
 .nav-bar {
