@@ -52,9 +52,7 @@ a:hover {
 }
 
 .nav-bar-contents {
-    flex-grow: 1;
-    padding: 0px 60px;
-    
+    flex-grow: 1;    
 }
 
 .logo-nav {
@@ -92,7 +90,7 @@ h1 {
     font-family: reross-rectangular, sans-serif;
     font-size: 3rem;
     color: #FFFDED;
-    padding: 50px 200px 0px 200px;
+    padding: 50px 200px 0px 150px;
     z-index: 5;
     letter-spacing: .5rem;
     line-height: 5rem;
