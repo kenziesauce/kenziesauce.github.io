@@ -78,8 +78,7 @@ ul {
 }
 
 .nav-subhead {
-    width: 100px;
-    margin-bottom: -17px;
+    position: absolute;
     font-family: reross-rectangular, sans-serif;
     font-size: .6rem;
     letter-spacing: .1rem;
@@ -90,6 +89,8 @@ ul {
     float: right;
     
 }
+
+
 
 .nav-content li, .nav-content li a {
     position: relative;
@@ -141,12 +142,15 @@ h1 {
 }
 
 .info-text {
-    position: inherit;
+    position: relative;
+    z-index: 40;
+    padding: 60px 40px 40px 130px;
     color: #FFFDED;
     
 }
 
 .info-text p {
+    font-size: 1.5rem;
     font-family: reross-quadratic, sans-serif;
 }
 

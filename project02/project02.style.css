@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+* {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsla(0,0%,0%,1.00);
+}
+
+.nav-bar {
+    
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #F5F5F5;
+	display: block;
+	z-index: 5;
+	-webkit-box-shadow: 0px 0px 25px -10px;
+	box-shadow: 0px 0px 25px -10px;
+    }
+
+.nav-content {
+    
+	float: right;
+	padding: 10px 40px 10px 0px;
+	
+}
+
+.nav-content li, .nav-content li a {
+    color: #45579A;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+	display: inline-block;
+    text-decoration: none;
+    background-color: #F5F5F5;
+    padding: 8px 5px;
+
+}
+
+.logo-nav{
+	padding: 20px 40px;
+    
+}
+
+
+.Wrapper {
+	width: 100%;
+	background-color: hsla(262,100%,98%,1.00);
+	margin-left: auto;
+	margin-right: auto;
+    padding-top: 130px;
+}
+header {
+	height: 100%;
+	font-family: "Filicudi Solid";
+}
+h1 {
+	font-size: 12.5em;
+	color: #3C54A4;
+	font-weight: 800;
+	text-align: center;
+	padding-top: 120px;
+	text-transform: uppercase;
+}
+.Logo2020 {
+    font-weight: 300;
+    font-size: 100px;
+    color: #3C54A4;
+    letter-spacing: 6px;
+}
+.BlackSectionTitle {
+    text-align: center;
+	font-size: 2em;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 30px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	letter-spacing: 0.6px;
+	position: relative;
+	margin-top: 29px;
+}
+.a {
+	text-decoration: none;
+	color: #B39931;
+}
+.PdfLink {
+    background-color: hsla(0,0%,90%,1.00);
+    height: 50px;
+    text-align: center;
+}
+.PdfLink a {
+	color: hsla(48,57%,45%,1.00);
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	padding-top: 14px;
+	height: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 1.2em;
+}
+.PdfLink a:hover  {
+	color: hsla(0,0%,90%,1.00);
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	padding-top: 14px;
+	height: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 1.2em;
+	background-color: hsla(48,57%,45%,1.00);
+}
+header h2 {
+	text-align: center;
+	font-weight: 200;
+	letter-spacing: 13px;
+	text-transform: uppercase;
+	color: #F0F0F0;
+}
+.BlackSection {
+	background-color: hsla(226,47%,44%,1.00);
+	padding-top: 20px;
+	padding-bottom: 41px;
+	clear: both;
+	height: 840px;
+	width: 100%;
+}
+h3 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 400;
+	color: #3C54A4;
+	text-transform: uppercase;
+	padding-top: 30px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	letter-spacing: 0.6px;
+	position: relative;
+	margin-top: 29px;
+}
+.concept p {
+    line-height: 1.4em;
+    color: hsla(0,2%,37%,1.00);
+    column-count: 2;
+    margin-right: 0px;
+    width: 100%;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+footer {
+	height: 100px;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 0.8em;
+	color: hsla(227,22%,67%,1.00);
+	background-color: hsla(226,47%,44%,1.00);
+	line-height: 1.4em;
+}
+.concept {
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+	
+	h3:after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #E6E6E6;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    padding-top: 0px;
+    margin-left: -29px;
+}
+.BriefList {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: thin solid hsla(0,0%,60%,1.00);
+    padding-bottom: 15px;
+    padding-top: 0px;
+    float: right;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.BriefList h4 {
+    padding-bottom: 10px;
+    padding-top: 0px;
+    color: hsla(0,0%,90%,1.00);
+    float: none;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.BriefList p {
+    color: hsla(0,0%,80%,1.00);
+    line-height: 1.4em;
+    text-transform: none;
+    padding-bottom: 25px;
+    font-weight: 400;
+}
+.left50percent {
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 40px;
+}
+.right50percent {
+	width: 40%;
+	float: left;
+    margin-left: 5%;
+}
+.inforblock {
+    min-height: 300px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+p {
+	color: hsla(0,2%,37%,1.00);
+	font-weight: 200;
+	line-height: 1.4em;
+	text-decoration: none;
+}
+.Logo20  {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.Logo20.inforblock img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.Logo3 {
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-left: 0px;
+}
