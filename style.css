@@ -40,6 +40,38 @@ ul {
 	box-shadow: 1px 1px 8px #7A7A7A;
 }
 
+.color-block-design {
+	width: 100%;
+	height: auto;
+    padding-bottom: 100px;
+	min-height: 650px;
+	background-color: #435497;
+	position: relative;
+	-webkit-box-shadow: 1px 1px 8px #7A7A7A;
+	box-shadow: 1px 1px 8px #7A7A7A;
+}
+
+.color-block-ill {
+	width: 100%;
+	height: auto;
+    padding-bottom: 100px;
+	min-height: 650px;
+	background-color: #FFB17A;
+	position: relative;
+	-webkit-box-shadow: 1px 1px 8px #7A7A7A;
+	box-shadow: 1px 1px 8px #7A7A7A;
+}
+
+.color-block-mo {
+	width: 100%;
+	height: 750px;
+	min-height: 650px;
+	background-color: #EBD85B;
+	position: relative;
+	-webkit-box-shadow: 1px 1px 8px #7A7A7A;
+	box-shadow: 1px 1px 8px #7A7A7A;
+}
+
 .nav-bar {
 	position: relative;
     padding: 0px 0px;

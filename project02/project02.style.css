@@ -1,69 +1,5 @@
 @charset "UTF-8";
 
-* {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    font-size: 100%;
-	font-family: 'Source Sans Pro', sans-serif;
-    box-sizing: border-box;
-}
-body {
-    background-color: hsla(0,0%,0%,1.00);
-}
-
-.nav-bar {
-    
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: #F5F5F5;
-	display: block;
-	z-index: 5;
-	-webkit-box-shadow: 0px 0px 25px -10px;
-	box-shadow: 0px 0px 25px -10px;
-    }
-
-.nav-content {
-    
-	float: right;
-	padding: 10px 40px 10px 0px;
-	
-}
-
-.nav-content li, .nav-content li a {
-    color: #45579A;
-    font-weight: 700;
-    font-family: 'Titillium Web', sans-serif;
-	display: inline-block;
-    text-decoration: none;
-    background-color: #F5F5F5;
-    padding: 8px 5px;
-
-}
-
-.logo-nav{
-	padding: 20px 40px;
-    
-}
-
-
-.Wrapper {
-	width: 100%;
-	background-color: hsla(262,100%,98%,1.00);
-	margin-left: auto;
-	margin-right: auto;
-    padding-top: 130px;
-}
-header {
-	height: 100%;
-	font-family: "Filicudi Solid";
-}
 h1 {
 	font-size: 12.5em;
 	color: #3C54A4;
@@ -162,15 +98,7 @@ h3 {
     padding-bottom: 20px;
     font-weight: 400;
 }
-footer {
-	height: 100px;
-	text-align: center;
-	padding-top: 40px;
-	font-size: 0.8em;
-	color: hsla(227,22%,67%,1.00);
-	background-color: hsla(226,47%,44%,1.00);
-	line-height: 1.4em;
-}
+
 .concept {
     padding-left: 60px;
     padding-right: 40px;
@@ -233,12 +161,7 @@ footer {
     margin-bottom: 50px;
     margin-left: 50px;
 }
-p {
-	color: hsla(0,2%,37%,1.00);
-	font-weight: 200;
-	line-height: 1.4em;
-	text-decoration: none;
-}
+
 .Logo20  {
     margin-left: auto;
     margin-right: auto;
