@@ -230,7 +230,7 @@ h1 {
 }
 
 .full-block:hover .overlay-block {
-  opacity: .6;
+  opacity: .7;
   cursor: pointer;
 }
 
