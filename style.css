@@ -40,6 +40,17 @@ ul {
 	box-shadow: 1px 1px 8px #7A7A7A;
 }
 
+.color-block-thank {
+	width: 100%;
+	height: auto;
+    padding-bottom: 80px;
+	min-height: 650px;
+	background-color: #201335;
+	position: relative;
+	-webkit-box-shadow: 1px 1px 8px #7A7A7A;
+	box-shadow: 1px 1px 8px #7A7A7A;
+}
+
 .color-block-design {
 	width: 100%;
 	height: auto;
@@ -261,6 +272,16 @@ h1 {
     
 }
 
+/*thank you page*/
+
+.thank-you {
+    position: inherit;
+    padding-top: 50px;
+}
+
+.alert i {
+    padding: 0px 5px 0px 0px;
+}
 
 /*footer*/
 
