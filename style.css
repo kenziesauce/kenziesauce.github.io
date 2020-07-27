@@ -267,7 +267,7 @@ h1 {
 footer {
 	width: 100%;
 	padding: 0px;
-	
+color: #201335;
 }
 
 .footer-content {
@@ -277,7 +277,8 @@ footer {
 }
 
 .footer-logo {
-    padding-top: 70px;
+    padding-top: 120px;
+    color: #201335;
 }
 
 footer h2 {
@@ -300,11 +301,10 @@ footer p {
     margin-top: -10px;
 }
 
-footer img {
+footer i {
     display: inline-flex;
     position: relative;
     width: 25px;
-    padding: 10px 8px 0px 0px;
 
 }
 
@@ -318,4 +318,10 @@ footer li {
     font-weight: 200;
     padding: 20px 0px 0px 40px;
     text-align: right;
+}
+
+.footer-git {
+    position: relative;
+    align-content: center;
+    text-align: center;    
 }
