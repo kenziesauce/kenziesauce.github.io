@@ -190,6 +190,51 @@ h1 {
     font-family: reross-quadratic, sans-serif;
 }
 
+/*gallery pages*/
+
+.gallery-row {
+    position: inherit;
+    z-index: 5; 
+    padding-bottom: 20px;
+}
+
+.overlay-block {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.overlay-block p {
+  color: white;
+  font-size: .8rem;
+  font-weight: 600;
+  line-height: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.full-block {
+  background-size: cover;
+  position: relative;
+}
+
+.full-block:hover .overlay-block {
+  opacity: .6;
+  cursor: pointer;
+}
+
+
 /*project pages*/
 
 .project-text {
@@ -215,6 +260,9 @@ h1 {
     letter-spacing: 0.05rem;
     
 }
+
+
+/*footer*/
 
 footer {
 	width: 100%;
