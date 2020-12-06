@@ -32,7 +32,8 @@ ul {
 
 .color-block {
 	width: 100%;
-	height: 750px;
+	height: auto;
+    padding-bottom: 50%;
 	min-height: 650px;
 	background-color: #201335;
 	position: relative;
@@ -98,8 +99,24 @@ ul {
     color: #FFFDED;
 }
 
+.nav-right {
+	position: flex;
+	float: right;
+	width: 50%;
+	display: inline-block;
+}
+
+.nav-left {
+	width: 50%;
+	display: inline-block;
+}
+
 .nav-bar p {
-    width: 100px;
+    width:inherit;
+    font-family: reross-rectangular, sans-serif;
+    font-size: .47rem;
+    letter-spacing: .024rem;
+    margin-top: -10px;
 }
 
 .nav-bar-contents {
