@@ -85,8 +85,8 @@ ul {
 
 .nav-bar {
 	position: relative;
-    padding: 0px 0px;
-	top: 0;
+    padding: 40px 0px 0px 0px;
+	top: 5;
     left:0;
     right: 0;
 	width: 100%;
@@ -113,7 +113,7 @@ ul {
 .nav-bar p {
     width:inherit;
     font-family: reross-rectangular, sans-serif;
-    font-size: .47rem;
+    font-size: .8rem;
     letter-spacing: .024rem;
     margin-top: -10px;
 }
@@ -127,13 +127,14 @@ ul {
     position: relative;
     display: inline-flex;
     font-weight: 800;
-    font-size: 1.07rem;
+    font-size: 1.5rem;
     letter-spacing: .01rem;
   
 }
 
 .nav-mak {
     font-family: reross-rectangular, sans-serif;
+    font-size: 1.5rem;
 }
 
 .nav-subhead {
@@ -157,7 +158,7 @@ ul {
     font-family: reross-quadratic, sans-serif;
 	display: inline-flex;
     text-decoration: none;
-    padding: 0px 0px 0px 20px;
+    padding: 5px 0px 0px 20px;
 
 }
 
