@@ -6,6 +6,7 @@
     padding: 0px;    
     font-size: 16px;
     font-family: 'Futura', sans-serif;
+    color:#201335;
 
 }
 
@@ -35,7 +36,7 @@ ul {
 	height: auto;
     padding-bottom: 100px;
 	min-height: 650px;
-	background-color: #201335;
+	background-color: #ffffff;
 	position: relative;
 	-webkit-box-shadow: 1px 1px 8px #7A7A7A;
 	box-shadow: 1px 1px 8px #7A7A7A;
@@ -57,7 +58,7 @@ ul {
 	height: auto;
     padding-bottom: 100px;
 	min-height: 650px;
-	background-color: #201335;
+	background-color: #ffffff;
 	position: relative;
 	-webkit-box-shadow: 1px 1px 8px #7A7A7A;
 	box-shadow: 1px 1px 8px #7A7A7A;
@@ -96,7 +97,7 @@ ul {
     flex-direction: row;
     align-items: center;
     z-index: 10;
-    color: #FFFDED;
+    color: #201335;
 }
 
 .nav-right {
@@ -154,7 +155,7 @@ ul {
 
 .nav-content li, .nav-content li a {
     position: relative;
-    color: #FFFDED;
+    color: #201335;
     font-family: reross-quadratic, sans-serif;
 	display: inline-flex;
     text-decoration: none;
