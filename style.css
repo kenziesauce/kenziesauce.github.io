@@ -208,18 +208,24 @@ h1 {
 .info-text {
     position: relative;
     z-index: 40;
-    padding: 60px 40px 40px 130px;
+    padding: 60px 40px;
     color: #FFFDED;
     
 }
 
 .info-text p {
-    font-size: 1.5rem;
-    font-family: reross-quadratic, sans-serif;
+    letter-spacing: rem;
+    font-size: 2rem;
+    font-family: 'futura', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-weight: 500;
 }
 
 /*gallery pages*/
 
+
+.gallery {
+    padding-top: 20px;
+}
 
 
 .gallery-row {
