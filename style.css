@@ -210,15 +210,22 @@ h1 {
     z-index: 40;
     padding: 60px 40px;
     color: #FFFDED;
-    
-}
-
-.info-text p {
     letter-spacing: rem;
     font-size: 2rem;
     font-family: 'futura', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
     font-weight: 500;
+    
 }
+
+.color-text {
+    font-size: inherit; 
+    color:#FFB17A;
+}
+
+.hover_img a { position:block; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover {color:#FFB17A;}
+.hover_img a:hover span { display:block;}
 
 /*gallery pages*/
 
