@@ -222,10 +222,10 @@ h1 {
     color:#FFB17A;
 }
 
-.hover_img a { position:block; }
+.hover_img a { position:inherit; }
 .hover_img a span { position:absolute; display:none; z-index:99; }
 .hover_img a:hover {color:#FFB17A;}
-.hover_img a:hover span { display:block;}
+.hover_img a:hover span { display:inherit;}
 
 /*gallery pages*/
 
