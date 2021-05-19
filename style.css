@@ -415,13 +415,13 @@ footer li {
     
 }
 
-.info-block a {
+.info-block button {
     font-weight: 500; 
     color: black;
     background-color: white;
 }
 
-.info-block a:hover {
+.info-block button:hover {
     color: white;
     background-color: #9C8BBC;
 }
