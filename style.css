@@ -385,3 +385,27 @@ footer li {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+.info-button {
+	width: 100%;
+}
+.info-block {
+	width: inheret;
+	display: flex;
+	margin-top: 40px;
+}
+.intro-text {
+	margin-top: 25px;
+	width: 60%;
+}
+
+/* info page */
+
+.container h3 {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.text-center p {
+    color: white;
+    
+}
