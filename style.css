@@ -398,6 +398,16 @@ footer li {
 
 /* info page */
 
+.color-block-info {
+	width: 100%;
+	height: auto;
+    padding-bottom: 100px;
+	background-color: #201335;
+	position: relative;
+	-webkit-box-shadow: 1px 1px 8px #7A7A7A;
+	box-shadow: 1px 1px 8px #7A7A7A;
+}
+
 .container h3 {
     font-size: 1.3rem;
     color: white;
@@ -412,16 +422,22 @@ footer li {
 	width: 100%;
 	margin-bottom: 10px;
 	margin-top: 10px;
-    
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: inherit;
+	color: #000000;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+	border: thin solid #2B2B2B;
+    background-color:white;
 }
 
-.info-block button {
-    font-weight: 500; 
-    color: black;
-    background-color: white;
+.info-block {
+    padding: 0px 50px;
 }
 
-.info-block button:hover {
+.info-block a:hover {
     color: white;
     background-color: #9C8BBC;
 }
