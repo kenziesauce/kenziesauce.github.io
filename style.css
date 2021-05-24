@@ -441,3 +441,8 @@ footer li {
     color: white;
     background-color: #9C8BBC;
 }
+.project-subhead {
+	font-weight: 700;
+	font-size: 1.2rem;
+	font-family: reross-rectangular, sans-serif;
+}
