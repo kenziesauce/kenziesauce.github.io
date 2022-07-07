@@ -304,11 +304,17 @@ h1 {
 }
 
 .project-info {
-    font-weight: 400;
+	font-weight: 400;
 	padding-right: 0px;
 	padding-left: 0px;
-	padding-bottom: 60px;
-    
+	padding-bottom: 30px;
+}
+
+.project-media {
+    padding-top: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 30px;
 }
 
 /*thank you page*/
@@ -448,4 +454,5 @@ footer li {
 	font-weight: 700;
 	font-size: 1.2rem;
 	font-family: reross-rectangular, sans-serif;
+	padding-top: 50px;
 }
