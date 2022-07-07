@@ -287,10 +287,10 @@ h1 {
 .project-text {
 	position: inherit;
 	display: inherit;
-	padding-top: 0px;
+	padding-top: 40px;
 	padding-right: 0px;
 	padding-left: 0px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 	color: #FFFDED;
 	z-index: 50;
 	text-align: left;
@@ -305,7 +305,9 @@ h1 {
 
 .project-info {
     font-weight: 400;
-    padding-right: 40%;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 60px;
     
 }
 
