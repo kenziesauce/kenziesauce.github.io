@@ -287,7 +287,7 @@ h1 {
 .project-text {
 	position: inherit;
 	display: inherit;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-right: 0px;
 	padding-left: 0px;
 	padding-bottom: 40px;
@@ -299,15 +299,22 @@ h1 {
 .project-title {
     font-family: reross-rectangular, sans-serif;
     font-size: 2rem;
-    padding-top: 20px; 
+    padding-top: 30px; 
     
+}
+
+.project-subhead {
+	font-weight: 700;
+	font-size: 1.2rem;
+	font-family: reross-rectangular, sans-serif;
+	padding-top: 30px;
 }
 
 .project-info {
 	font-weight: 400;
 	padding-right: 0px;
 	padding-left: 0px;
-	padding-bottom: 30px;
+	padding-bottom: 0px;
 }
 
 .project-media {
@@ -449,10 +456,4 @@ footer li {
 .info-block a:hover {
     color: white;
     background-color: #9C8BBC;
-}
-.project-subhead {
-	font-weight: 700;
-	font-size: 1.2rem;
-	font-family: reross-rectangular, sans-serif;
-	padding-top: 50px;
 }
