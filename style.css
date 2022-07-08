@@ -394,7 +394,9 @@ footer li {
 }
 
 .footer-git p {
-    opacity: .4;
+    font-family: 'titillium', sans-serif;
+    font-size: .6rem;
+    opacity: .6;
     position: relative;
     align-content: center;
     text-align: center;
