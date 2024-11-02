@@ -448,6 +448,7 @@ footer li {
 	text-decoration: none;
 	text-align: center;
 	border: thin solid #2B2B2B;
+	border-radius: 50%;
     background-color:white;
 }
 
