@@ -448,12 +448,14 @@ footer li {
 	text-decoration: none;
 	text-align: center;
 	border: thin solid #2B2B2B;
-	border-radius: 50%;
+	border-radius: 25px;
     background-color:white;
 }
 
 .info-block {
     padding: 0px 50px;
+	flex-wrap:wrap;
+	justify-content: center;
 }
 
 .info-block a:hover {
