@@ -455,7 +455,7 @@ footer li {
 .info-block {
     padding: 0px 50px;
 	flex-wrap:wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .info-block a:hover {
